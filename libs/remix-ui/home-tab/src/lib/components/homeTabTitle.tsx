@@ -54,17 +54,17 @@ function HomeTabTitle() {
       <div className="d-flex py-2 justify-content-between">
         <div className="d-flex justify-content-start">
           <span className="h-80 text-uppercase" style={{fontSize: 'xx-large', fontFamily: 'Noah, sans-serif'}}>
-            Remix
+            IDE
           </span>
-          <div className="ml-2 d-flex">
+          {/* <div className="ml-2 d-flex">
             <div onClick={() => playRemi()}>
               <img className="" src="assets/img/guitarRemiCroped.webp" style={{height: '3rem'}} alt=""></img>
             </div>
             <audio id="remiAudio" muted={false} src="assets/audio/remiGuitar-single-power-chord-A-minor.mp3" ref={remiAudioEl}></audio>
-          </div>
+          </div> */}
         </div>
         <span className="d-flex flex-nowrap align-self-end">
-          <CustomTooltip
+          {/* <CustomTooltip
             placement={'top'}
             tooltipId="overlay-tooltip"
             tooltipClasses="text-nowrap"
@@ -78,7 +78,7 @@ function HomeTabTitle() {
               }}
               className="border-0 px-1 h-100 btn fab fa-youtube"
             ></button>
-          </CustomTooltip>
+          </CustomTooltip> */}
           <CustomTooltip
             placement={'top'}
             tooltipId="overlay-tooltip"
@@ -88,13 +88,13 @@ function HomeTabTitle() {
           >
             <button
               onClick={() => {
-                openLink('https://twitter.com/EthereumRemix')
+                openLink('https://twitter.com/True_ZK')
                 _paq.push(['trackEvent', 'hometab', 'socialMedia', 'twitter'])
               }}
               className="border-0 px-1 h-100 btn fab fa-x-twitter"
             ></button>
           </CustomTooltip>
-          <CustomTooltip
+          {/* <CustomTooltip
             placement={'top'}
             tooltipId="overlay-tooltip"
             tooltipClasses="text-nowrap"
@@ -108,8 +108,8 @@ function HomeTabTitle() {
               }}
               className="border-0 px-1 h-100 btn fab fa-linkedin"
             ></button>
-          </CustomTooltip>
-          <CustomTooltip
+          </CustomTooltip> */}
+          {/* <CustomTooltip
             placement={'top'}
             tooltipId="overlay-tooltip"
             tooltipClasses="text-nowrap"
@@ -123,9 +123,8 @@ function HomeTabTitle() {
               }}
               className="border-0 h-100 px-1 btn fab fa-medium"
             ></button>
-          </CustomTooltip>
-
-          <CustomTooltip
+          </CustomTooltip> */}
+          {/* <CustomTooltip
             placement={'top'}
             tooltipId="overlay-tooltip"
             tooltipClasses="text-nowrap"
@@ -139,7 +138,7 @@ function HomeTabTitle() {
               }}
               className="border-0 h-100 pl-1 pr-0 btn fab fa-discord"
             ></button>
-          </CustomTooltip>
+          </CustomTooltip> */}
         </span>
       </div>
       <b className="py-1 text-dark" style={{fontStyle: 'italic'}}>
