@@ -54,7 +54,7 @@ function HomeTabTitle() {
       <div className="d-flex py-2 justify-content-between">
         <div className="d-flex justify-content-start">
           <span className="h-80 text-uppercase" style={{fontSize: 'xx-large', fontFamily: 'Noah, sans-serif'}}>
-            IDE
+            TrueIDE
           </span>
           {/* <div className="ml-2 d-flex">
             <div onClick={() => playRemi()}>
