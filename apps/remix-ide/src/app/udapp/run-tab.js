@@ -154,6 +154,7 @@ export class RunTab extends ViewPlugin {
                 : ''
           : ''
       }`
+      await addProvider('injected-truezk-testnet-provider', 'TrueZK Testnet', true, false)
       await addProvider('injected', displayNameInjected, true, false)
     } else if (window && !window.ethereum) {
       // we still add "injected" if there's no provider (just so it's visible to the user).
