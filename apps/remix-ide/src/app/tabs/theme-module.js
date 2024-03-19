@@ -9,7 +9,7 @@ const _paq = window._paq = window._paq || []
 //sol2uml dot files cannot work with css variables so hex values for colors are used
 const themes = [
   { name: 'Dark', quality: 'dark', url: 'assets/css/themes/remix-dark_tvx1s2.css', backgroundColor: '#222336', textColor: '#babbcc',
-    shapeColor: '#babbcc',fillColor: '#2a2c3f' },
+    shapeColor: '#babbcc',fillColor: '#343333' },
   { name: 'Light', quality: 'light', url: 'assets/css/themes/remix-light_powaqg.css', backgroundColor: '#eef1f6', textColor: '#3b445e',
     shapeColor: '#343a40',fillColor: '#ffffff' },
   { name: 'Violet', quality: 'light', url: 'assets/css/themes/remix-violet.css', backgroundColor: '#f1eef6', textColor: '#3b445e',
